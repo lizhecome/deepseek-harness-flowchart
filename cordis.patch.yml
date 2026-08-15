@@ -1,0 +1,13 @@
+# From this repository checkout, install the bundle with:
+#   dsh plugin --profile <web|headless> add --ignore-workspace-root-check .
+
+- insert:
+    - id: flowchart
+      name: '@lizhecome/dsh-flowchart'
+      config:
+        defaultTheme: tokyo-night
+        maxSourceChars: 50000
+        maxSvgBytes: 2000000
+
+    - id: flowchart-invariant
+      name: '@lizhecome/dsh-flowchart/invariant'
